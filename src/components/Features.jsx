@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import TextContext from '../context/TextContext'
 
 
-reconst Features = ({title , func}) => {
+const Features = ({title , func}) => {
     const { setText , output , text , api , setOutput , setLoader} = useContext(TextContext);
 
     const handleChange = (e) => {
